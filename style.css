@@ -1,0 +1,60 @@
+.im{
+        height: 270px;
+        width: 420px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        margin-left: 530px;
+        border: 10px solid #cde6e3;
+        box-shadow: 6px 7px 9px 5px #98ece873;
+        
+    }
+
+
+.hc{
+    width: 31%;
+    background-color: #d59829;
+    padding-left: 1%;
+}
+.hc1{
+    width: 8%;
+    background-color: #d59829;
+    padding-left: 1%;
+}
+.hc2{
+    background-color: #d59829;
+    width: 8%;
+    text-align: center;
+}
+.hc3{
+    background-color: #b9872d;
+    width: 25%;
+}
+
+.color{  
+    background-image:linear-gradient(rgba(250, 248, 248, 0.5),rgba(255, 254, 254, 0.5)), url(Capture05.JPG);
+
+}
+.pos{
+    position: relative;
+}
+@media(max-width:1024px){
+    .im{margin-left: 26%;
+    }
+}
+@media(max-width:425px){
+    .im{margin-left: 8%;
+        width: 300px;
+        
+    }
+}
+@media(max-width:375px){
+    .im{margin-left: 2%;
+        width: 300px;
+    }
+}
+@media (max-width:320px) {
+    .color{width: 320px;}
+    .im{margin-left: -1%;}
+   
+    
+}
